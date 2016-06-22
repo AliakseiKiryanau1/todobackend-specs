@@ -132,7 +132,7 @@ function del(url) {
 }
 
 // UPDATE request with data and return promise
-function update(ufl, method, data) {
+function update(url, method, data) {
 	return request(method, url)
 	.set('Content-Type', 'application/json')
 	.set('Accept', 'application/json')
